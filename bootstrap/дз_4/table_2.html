@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Табличка 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* *{
+            font-size: 16px;
+        }
+        .th_1, .th_2 , .th_3 , .th_4 , .th_5{
+            background-color: coral;
+        }
+        body h1{
+            font-size: 60px;
+            text-align: center;
+        }
+
+        th[colspan]{
+            background-color: brown;
+        }
+        
+        div + p{
+            font-size: 20px;
+            background-color: brown;
+
+        }  
+        body > a {
+            color : red;
+            cursor: crosshair;
+            background-color: black;
+            padding: 5px;
+            text-decoration: none;
+            border-radius: 10%;
+            margin : 20px;
+            margin-left: 250px;
+        }       */
+
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <form class="container-fluid justify-content-start">
+            <button class="btn btn-outline-success me-2" type="button"><a class = "text-decoration-none text-black" href="./table_1.html">Переглянути відеокарти</a></button>
+          <button class="btn btn-outline-success me-2" type="button"><a class = "text-decoration-none text-black" href="./table_2.html">Переглянути процесори</a></button>
+          <button class="btn btn-outline-success me-2" type="button"><a class = "text-decoration-none text-black" href="./table_3.html">Переглянути материнські плати</a></button>
+        </form>
+      </nav>
+    <h1 class = "text-center">Процесори</h1>
+    <div class = "d-flex justify-content-center">
+        <img src="https://hotline.ua/img/tx/239/2398725315.jpg" alt="Процесор" height="200px">
+        <img src="https://hotline.ua/img/uploads/clients/33=605e152704d6c.jpg" alt="Процесор" height="200px">
+        <img src="https://hotline.ua/img/uploads/clients/555=605e12802de3f.jpg" alt="Процесор" height="200px">
+        <img src="https://hotline.ua/img/uploads/clients/44=605e1499bee2e.jpg" alt="Процесор" height="200px">
+    </div>
+        <p> Проце́сор (англ. processor, нім. Prozessor) — електронна схема, 
+            призначена для обробки даних (наприклад, виконання арифметичних і логічних операцій над даними, 
+            здійснення введення та виведення даних тощо).</p>
+    <table class = "table table-striped table-bordered"  >
+        <thead>
+            <tr>
+                <th class = "th_1">Компанія - виробник</th>
+                <th class = "th_2">Модель та лінійка</th>
+                <th class = "th_3">Основні характеристики</th>
+                <th class = "th_4">Покоління</th>
+                <th class = "th_5">Ціна</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> INTEL</td>
+                <td>Core™ i7</td>
+                <td>
+                    <ul>
+                        <li>Сімейство процесора	Intel Core i7</li>
+                        <li>Сокет	1700</li>
+                        <li>Кількість ядер	16 ядер</li>
+                        <li> Кількість потоків	24 потоки</li>
+                        <li> Базова тактова частота процесора	2.1 GHz</li>
+                        <li>Максимальна тактова частота процесора	5.2 GHz</li>
+                        <li> Максимальний TDP	219 Вт</li>
+                        <li> Техпроцес	7nm</li>
+                        <li>Кеш-пам'ять	30 MB Intel Smart Cache</li>
+                        <li>Об'єм кеш-пам'яті 2-го рівня	L2: 24MB</li>
+                    </ul>
+                </td>
+                <td>13700F</td>
+                <td>16 590 грн</td>             
+            </tr>
+            <tr>
+                <td>
+                    AMD
+                </td>
+                <td>
+                    Ryzen 9 5900X
+                </td>
+                <td>
+                    <ul>
+                        <li>Сімейство процесора	AMD Ryzen 9</li>
+                        <li>Сокет	AM4</li>
+                        <li>Кількість ядер	12 ядер</li>
+                        <li>Кількість потоків	24 потоки</li>
+                        <li>Базова тактова частота процесора	3.7 GHz</li>
+                        <li>Максимальна тактова частота процесора	4.8 GHz</li>
+                        <li>Максимальний TDP	105 Вт</li>
+                        <li>Техпроцес	7nm</li>
+                        <li>Кеш-пам'ять	64 MB</li>
+                        <li>Об'єм кеш-пам'яті 2-го рівня	L2: 6MB, L3: 64MB</li>
+                    </ul>
+                </td>
+                <td>
+                    5900X
+                </td>
+                <td>
+                    20 999 грн
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    INTEL
+                </td>
+                <td>
+                    Core™ i9-10900K
+                </td>
+                <td>
+                    <ul>
+                        <li>Сімейство процесора	Intel Core i9</li>
+                        <li>Сокет	LGA 1200</li>
+                        <li>Кількість ядер	10 ядер</li>
+                        <li>Кількість потоків	20 потоків</li>
+                        <li>Базова тактова частота процесора	3.7 GHz</li>
+                        <li>Максимальна тактова частота процесора	5.3 GHz</li>
+                        <li>Максимальний TDP	125 Вт</li>
+                        <li>Техпроцес	14nm</li>
+                        <li>Кеш-пам'ять	20 MB SmartCache</li>
+                        <li>Об'єм кеш-пам'яті 2-го рівня	L2: 10MB, L3: 20MB</li>
+                    </ul>
+                </td>
+                <td>
+                    10900K
+                </td>
+                <td>
+                    17 990 грн
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    AMD
+                </td>
+                <td>
+                    Ryzen 7 5800X
+                </td>
+                <td>
+                    <ul>
+                        <li>Сімейство процесора	AMD Ryzen 7</li>
+                        <li>Сокет	AM4</li>
+                        <li>Кількість ядер	8 ядер</li>
+                        <li>Кількість потоків	16 потоків</li>
+                        <li>Базова тактова частота процесора	3.8 GHz</li>
+                        <li>Максимальна тактова частота процесора	4.7 GHz</li>
+                        <li>Максимальний TDP	105 Вт</li>
+                        <li>Техпроцес	7nm</li>
+                        <li>Кеш-пам'ять	32 MB</li>
+                        <li>Об'єм кеш-пам'яті 2-го рівня	L2: 4MB, L3: 32MB</li>
+                    </ul>
+                </td>
+                <td>
+                    5800X
+                </td>
+                <td>
+                    12 499 грн
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    INTEL
+                </td>
+                <td>
+                    Core™ i5-11600K
+                </td>
+                <td>
+                    <ul>
+                        <li>Сімейство процесора	Intel Core i5</li>
+                        <li>Сокет	LGA 1200</li>
+                        <li>Кількість ядер	6 ядер</li>
+                        <li>Кількість потоків	12 потоків</li>
+                        <li>Базова тактова частота процесора	3.9 GHz</li>
+                        <li>Максимальна тактова частота процесора	4.9 GHz</li>
+                        <li>Максимальний TDP	125 Вт</li>
+                        <li>Техпроцес	14nm</li>
+                        <li>Кеш-пам'ять	12 MB SmartCache</li>
+                        <li>Об'єм кеш-пам'яті 2-го рівня	L2: 6MB, L3: 12MB</li>
+                    </ul>
+                </td>
+                <td>
+                    11600K
+                </td>
+                <td>
+                    8 799 грн
+                </td>
+            </tr> 
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" class = "bg-success">Рекомендація по вибору</th>
+                <th> Core i7</th>
+            </tr>
+        </tfoot>
+                 
+    </table>
+    <!-- <a class = "link_1" href = "table_1.html">Повернутись на сторінку з відеокартами</a>
+    <a href = "table_3.html" target="_blank"> Перейти на сторінку з материнськими платами</a> -->
+</body>
+</html>
